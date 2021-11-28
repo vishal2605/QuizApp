@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningApp">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".SplashScreenActivity"
+            android:exported="true">
+            android:theme="@style/Theme.Practice.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
